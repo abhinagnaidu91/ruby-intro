@@ -15,3 +15,14 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+# create two data structures
+my_list = ["milk", "eggs", "bacon"]
+friend_list = ["beer", "cookies", "apples"]
+shared_list = my_list + friend_list
+combined_list = shared_list.uniq.sort
+#puts combined_list
+
+combined_list.each do |item|
+    puts "buy #{item}"
+end

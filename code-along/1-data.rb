@@ -17,3 +17,9 @@
 # Combine strings and variables
 
 # String manipulation
+
+# put the #2 on screen
+#puts 2
+
+#puts 2+5
+
